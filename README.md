@@ -93,6 +93,9 @@ WHERE High_DTI_Risk = 1
   AND Credit_Score < 650;
 ```
 ---
+![Overall Default Rate](default_rate.png)
+![Credit Band Analysis](credit_band_analysis.png)
+---
 
 ## Business Recommendations (based off of the analysis)
 
