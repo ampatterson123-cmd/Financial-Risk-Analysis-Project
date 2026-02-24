@@ -10,7 +10,25 @@ This project demonstrates a credit risk analysis using SQL on a loan dataset. Th
   - Loan type, purpose, region, borrower demographics
   - Loan status (default vs. non-default)
 - Data is fictional and used for educational purposes.
-- The dataset is too large to include here, however it was sourced from Kaggle. Loan_Default.csv
+- The dataset is too large to include here, however it was sourced from Kaggle.
+
+---
+
+## Business Problem
+
+A financial institution seeks to assess borrower default risk to improve underwriting decisions and reduce expected credit losses.
+---
+## Dataset Overview
+- 148,670 rows
+- 34 columns
+- Borrower characteristics
+- Loan structure variables
+- Credit metrics
+
+---
+## Methodology
+ 1. Data cleaning & exploration perofrmed in SQL
+ 2. Feature engineering and analysis in SQL
 
 ---
 
@@ -75,6 +93,13 @@ WHERE High_DTI_Risk = 1
   AND Credit_Score < 650;
 ```
 ---
+
+## Business Recommendations (based off of the analysis)
+
+The findings suggest that layered risk indicators (high DTI + high LTV + lower credit scores) significantly increase default probability. The organization should incorporate multi-factor risk scoring into underwriting and capital allocation decisions to proactively manage credit exposure.
+
+---
+
 ## Tools Used
 
  - SQL Server Management Studio (SSMS)
@@ -85,3 +110,4 @@ WHERE High_DTI_Risk = 1
  - Learned to clean and preprocess financial datasets in SQL.
  - Built risk indicators to flag high-risk loans.
  - Gained experience calculating default rates and performing risk segmentation. 
+
