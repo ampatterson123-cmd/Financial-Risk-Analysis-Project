@@ -76,10 +76,12 @@ WHERE High_DTI_Risk = 1
 ```
 ---
 ## Tools Used
--SQL Server Management Studio (SSMS)
--T-SQL for database creation, cleaning, feature engineering, and analysis.
+
+ - SQL Server Management Studio (SSMS)
+ - T-SQL for database creation, cleaning, feature engineering, and analysis.
 ---
 ## Key Leanings
--Learned to clean and preprocess financial datasets in SQL.
--Built risk indicators to flag high-risk loans.
--Gained experience calculating default rates and performing risk segmentation. 
+
+ - Learned to clean and preprocess financial datasets in SQL.
+ - Built risk indicators to flag high-risk loans.
+ - Gained experience calculating default rates and performing risk segmentation. 
