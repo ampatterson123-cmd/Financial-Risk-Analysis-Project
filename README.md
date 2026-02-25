@@ -27,7 +27,7 @@ A financial institution seeks to assess borrower default risk to improve underwr
 
 ---
 ## Methodology
- 1. Data cleaning & exploration perofrmed in SQL
+ 1. Data cleaning & exploration performed in SQL
  2. Feature engineering and analysis in SQL
 
 ---
@@ -108,7 +108,7 @@ The findings suggest that layered risk indicators (high DTI + high LTV + lower c
  - SQL Server Management Studio (SSMS)
  - T-SQL for database creation, cleaning, feature engineering, and analysis.
 ---
-## Key Leanings
+## Key Learnings
 
  - Learned to clean and preprocess financial datasets in SQL.
  - Built risk indicators to flag high-risk loans.
